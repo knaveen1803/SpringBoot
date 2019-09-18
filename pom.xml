@@ -40,6 +40,12 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+   		<snapshotRepository>
+      		<id>nexus</id>
+      		<url>http://ec2-54-212-70-193.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/snapshots</url>
+   		</snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
